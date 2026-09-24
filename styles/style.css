@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Cargando{
+    max-width:50%;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.loading_author{
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: rgba(141,141,193,1);
+    margin: 0.6rem 0 2rem 0; 
+    display:block;
+}
+.loading_anim{
+    width: 72px;
+    height: 69px;
+    display: inline-block;
+    overflow: hidden;
+    border:5px solid rgba(99,146,243,0.25);
+    border-left-color: rgba(220, 75, 83, 1);
+    border-top-color:blueviolet;
+    border-radius: 50%;
+    animation:rotate 600ms infinite linear;
+}
+@keyframes rotate{to {transform: rotate(1turn);}}
